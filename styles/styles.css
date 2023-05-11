@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&family=Sigmar&display=swap');
+
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+li{
+    display: inline-block;
+    align-items: flex-end;
+    margin: 20px;
+}
+h1{
+    font-weight: 200;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+span{
+    color:rgb(56, 155, 236);
+    color:rgb(56, 155, 236);
+}
+p{
+    line-height: 20px;
+}
+
+img{ 
+    width: 520px;
+}
+
+a{
+    color:white;
+}
+
+a:hover{
+    color:rgb(56, 155, 236);
+    transition: 0.3s all;
+}
+
+#inscreva-se-bt{
+    border: 2px solid rgb(56, 155, 236);
+    border-radius: 25px 20px;
+    padding: 5px;
+}
+
+#inscreva-se-bt:hover{
+    background-color: rgb(56, 155, 236);
+    color: white;
+    transition: 0.4s all;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+#inscreva-se-btn{
+    margin: 1px;
+    background-color: rgb(56, 155, 236);
+    border: none;
+    height: 50px;
+    width:50%;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px 20px;
+    font-size: 120%;
+}
+#inscreva-se-btn:hover{
+    background-color: white;
+    color:rgb(56, 155, 236);
+    cursor: pointer;
+    border: 3px solid rgb(56, 155, 236);
+}
+
+input{
+    margin-top: 20px; 
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+.texto-principal{
+    text-align: center;
+}
+
+.linha-um{
+    width: 100%;
+}
+#title-one{
+    text-align: center;
+}
+#paragrafo{
+    width: 100%;
+    border: rgb(56, 155, 236);
+    border-radius: 25px 20px;
+}
+#btn-lnk{
+    border: 2px solid rgb(66, 185, 245);
+    background-color: rgb(56,155,236);
+    color: rgb(56, 155, 236);
+    border-radius: 30px 25px ;
+    height: 45px;
+    width: 25%;
+    font-weight: bold;
+    font-size: 120%;
+    
+}
+#btn-lnk:hover{
+    background-color: rgb(235, 235, 235);
+    color:rgb(56, 155, 236);
+    cursor: pointer;
+    border: 3px solid rgb(56, 155, 236);
+    transition: 0.010s all;
+}
+
+#btn-f{
+   justify-content: space-between;
+   float: right;
+   background-color: rgb(56, 155, 236);
+   border: 2px solid rgb(66, 185, 245);
+   border-radius: 35px 30px;
+   height: 45px;
+   width: 25%;
+   font-weight: bold;
+   font-size: 120%;
+   justify-content: space-between;
+}
+#btn-f:hover{
+    background-color: rgb(235, 235, 235);
+    color:rgb(56, 155, 236);
+    cursor: pointer;
+    border: 3px solid rgb(56, 155, 236);
+    transition: 0.10s all;
+}
